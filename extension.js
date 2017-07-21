@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "KoldunLand";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,20 +46,20 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
-      language: "english",
-      chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+      botName: "Kold\u016bnmenas",
+      language: "Lietuvi\u0173",
+      chatLink: "https://raw.githubusercontent.com/Koldunland/custom/master/lang/lt.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
-      startupVolume: 0, // 0-100
-      startupEmoji: false, // true or false
+      startupVolume: 20, // 0-100
+      startupEmoji: true, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
-      maximumAfk: 120,
-      afkRemoval: true,
+      maximumAfk: 600,
+      afkRemoval: false,
       maximumDc: 60,
       bouncerPlus: true,
       blacklistEnabled: true,
@@ -68,35 +68,34 @@
       maximumLocktime: 10,
       cycleGuard: true,
       maximumCycletime: 10,
-      voteSkip: false,
+      voteSkip: true,
       voteSkipLimit: 10,
-      historySkip: false,
+      historySkip: true,
       timeGuard: true,
-      maximumSongLength: 10,
+      maximumSongLength: 6,
       autodisable: false,
       commandCooldown: 30,
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
-      ["theme", "This song does not fit the room theme. "],
-      ["op", "This song is on the OP list. "],
-      ["history", "This song is in the history. "],
-      ["mix", "You played a mix, which is against the rules. "],
-      ["sound", "The song you played had bad sound quality or no sound. "],
-      ["nsfw", "The song you contained was NSFW (image or sound). "],
-      ["unavailable", "The song you played was not available for some users. "]
+      ["theme", "Daina neatitinka Koldunland kambario tematikos. "],
+      ["op", "Daina yra 'Per dažnai grotų' dainų sąraše. "],
+      ["history", "Daina jau buvo neseniai grota. "],
+      ["sound", "Dainos garso kokyb\u0117 buvo labai prasta. "],
+      ["nsfw", "Dainoje buvo netinkamo turinio (vaizdo klipas, garsai). "],
+      ["unavailable", "Daina kai kuriems vartotojams buvo negalima. "]
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
       motdEnabled: false,
       motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motd: "Laikina dienos \u017einut\u0117",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
       opLink: null,
       rulesLink: null,
-      themeLink: null,
+      themeLink: "https://cdn.radiant.dj/rcs/bg/2k15rtreesmusic.jpg",
       fbLink: null,
       youtubeLink: null,
       website: null,
