@@ -99,8 +99,8 @@
       fbLink: null,
       youtubeLink: null,
       website: null,
-      intervalMessages: [],
-      messageInterval: 5,
+      intervalMessages: ["Nepamir\u0161k balsuoti u\u017e patinkan\u010dias dainas mygtukais 'Woot/Meh/Grab'"],
+      messageInterval: 3,
       songstats: true,
       commandLiteral: "!",
       blacklists: {
