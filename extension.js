@@ -94,7 +94,7 @@
       etaRestriction: false,
       welcome: true,
       opLink: null,
-      rulesLink: null,
+      rulesLink: "https://goo.gl/WJ66qo",
       themeLink: "https://cdn.radiant.dj/rcs/bg/2k15rtreesmusic.jpg",
       fbLink: null,
       youtubeLink: null,
