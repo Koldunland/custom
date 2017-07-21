@@ -1,13 +1,13 @@
 {
     "1":{
-        "mid": "1:OPsongID1"
+        "mid": "1:BANNEDsongID1"
     },
     "2":{
         "title": "Ši daina yra 'Užblokuotų dainų' sąraše.",
         "author": "'Užblokuotos dainos' atlikėjas.",
-        "mid": "1:OPsongID2"
+        "mid": "1:BANNEDsongID2"
     },
     "3":{
-        "mid": "1:OPsongID3"
+        "mid": "1:BANNEDsongID3"
     }
 }
